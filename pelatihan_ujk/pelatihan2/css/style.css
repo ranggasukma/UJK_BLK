@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.jumbotron{
+    padding: 0 !important;
+    margin: 0;
+}
+
+.jumbotron img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.jumbotron p{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    right: 600px;
+    font-size: 40px;
+    color: white;
+    z-index: 1;
+    /* text-shadow: 1px 1px 3px -6px #ccc; */
+    text-shadow: 1px 2px 3px rgb(160, 153, 153);
+}
+.navbar-nav a:hover{
+    background-color: rgb(117, 196, 228);
+}
+.a-active{
+    background-color: rgb(65, 184, 231);
+}
+
+/* CSS untuk beranda */
+.title-profile{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+.carousel{
+    margin-top: 20px;
+}
+.carousel-item img{
+    height: 300px !important;
+}
+
+.card{
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+/* Untuk dihalaman Buku Tamu */
+.alert{
+    margin-top: 15px;
+}
+.form-inputans{
+    margin-top: 30px;
+    padding: 30px;
+    box-shadow: 1px 1px 3px 2px #ccc;
+    border-radius: 10px;
+}
+
+.form-inputans h3{
+    text-align: center;
+}
+
+.form-inputans .btn-groups{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+.form-inputans .btn-groups button{
+   margin-right: auto;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .jumbotron p{
+        right: 0;
+        font-size: 30px;
+    }
+
+    .title-profile{
+        margin-top: 20px;
+    }
+
+    footer{
+        height: 150px;
+        padding: 15px;
+    }
+}
